@@ -1,5 +1,6 @@
 // test/index.test.js
-import add from '../index.js';
+// Adjusted import path to point to the actual source file in src/
+import add from '../src/index.js';
 import { assert } from 'chai';
 
 describe('add()', () => {
